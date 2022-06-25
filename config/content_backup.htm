@@ -530,6 +530,7 @@ var winkVideoData = {
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/0bx4mjwatFY" title="YouTube video player" width="560"></iframe></p>
 <p>心得:這次在推送的過程中遇到了一點問題，由於我的影片檔案太大，無法放在downloads推送上去，所以改成上傳Youtube再放進動態頁面推送上去。</p>
 <h1>期末任務1</h1>
+<h1>期末任務2</h1>
 <script src="/static/brython.js"></script>
 <script src="/static/brython_stdlib.js"></script>
 <!-- for ggame -->
@@ -591,7 +592,7 @@ def clear_bd(ev):
     bd.clear()
 # Brython 3.3.4 內建的 container 名稱為  'container' 且 turtle 輸出為 svg 必須使用 div 訂定 id
 Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
-Tetrisurl= "https://gist.githubusercontent.com/41023112/408445f2c0900101bb9739898dadd627/raw/c7147a4d11825131353f7906d6bb193539061536/w18"
+Tetrisurl= "https://gist.githubusercontent.com/41023112/c1bb45d5c30b424092152e31ee2f06c5/raw/4ccd6cfc52b54aad4078729d9fcd6caf3d9c61a5/w18"
 Tetris = open(Tetrisurl).read()
 Ace.editor.setValue(Tetris)
 Ace.editor.scrollToRow(0)
